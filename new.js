@@ -3,6 +3,10 @@ function student(name, number) {
   this.number = number;
 }
 
+let list = ["이유안", "방승희", "최성민"];
+let studentArr = [];
 
-let test = new student("공욱재", "0");
-console.log(test);
+for(let i=0; i<list.length; i++) {
+  studentArr[i] = new student(list[i], i+1);
+}
+console.log(studentArr);
