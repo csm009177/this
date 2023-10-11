@@ -3,7 +3,3 @@ function outerOne(a) {
   innerOne(a);
 }
 console.log(outerOne("hello"))
-
-fs.readFile("./html", data, (error) => {
-  
-})
