@@ -1,4 +1,4 @@
-// 1. 함수 선언 방식
+// 1. 함수 기명 선언 방식
 function outer() {
   return "hello";
 }
@@ -11,10 +11,10 @@ const outerTwo = function() {
 // 최적화 입장에서 밑에 것이 훨씬 낫다
  return "bye";
 }
-// 3. 화살표 함수
+// 3. 화살표 함수 (소괄호를 쓰는 유형)
 const outerThree = () => "wow";
 
-// 4. 매개변수가 있는 경우
+// 4. 매개변수가 있는 경우 (매개변수가 있으면 소활호를 생략)
 const outerFour = a => a;
 
 console.log(outer());
